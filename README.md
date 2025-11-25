@@ -1,9 +1,9 @@
-![CerbroMail Logo](static\images\cerebromail-logo.png)
+![CerbroMail Logo](static/images/cerebromail-logo.png)
 # CerbroMail - AI Email Intelligence
 
 **Intelligent email management system powered by Google Gemini AI**
 
-Built with SOLID principles, modular architecture, and production-ready security features.
+an adaptive, AI-driven email productivity system that transforms raw inboxes into actionable insights. Powered by Google Gemini, it intelligently categorizes messages, extracts tasks, generates drafts, and enables chat-based email understanding — all through a clean, user-friendly interface.
 
 ---
 
@@ -11,8 +11,8 @@ Built with SOLID principles, modular architecture, and production-ready security
 
 ```bash
 # 1. Clone and install
-git clone <your-repo-url>
-cd AgenticEmail
+git clone https://github.com/lalitaditya04/CerebroMail
+cd CerebroMail
 python -m venv venv "or" conda create -n env_name python=3.12
 venv\Scripts\activate "or" conda activate env_name # Windows
 source venv/bin/activate  "or" conda activate env_name # macOS/Linux
@@ -59,7 +59,7 @@ Then open: **http://localhost:5000**
 ## 🏗️ Architecture (SOLID Principles)
 
 ```
-AgenticEmail/
+CerebroMail/
 ├── app.py                      # Main Flask app (routing only)
 ├── requirements.txt            # Dependencies
 ├── .env                        # Configuration (not in Git)
@@ -302,7 +302,7 @@ INTERNAL_API_KEY=your_internal_key           # For admin endpoints
 
 **"No module named 'routes'"**
 ```bash
-cd AgenticEmail
+cd CerebroMail
 python app.py
 ```
 
