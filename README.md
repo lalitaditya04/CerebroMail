@@ -1,4 +1,6 @@
-![CerbroMail Logo](static/images/cerebromail-logo.png)
+<p>
+  <img src="static/images/cerebromail-logo.png" alt="CerbroMail Logo" width="180" >
+</p>
 # CerbroMail - AI Email Intelligence
 
 **Intelligent email management system powered by Google Gemini AI**
